@@ -1,7 +1,7 @@
 # Human-in-the-Loop Communication Agent
 
 ## Responsibility:
-A communication agent that waits for messages from other agents and responds with requested fun content. Built with human-in-the-loop confirmation system using Coral integration.
+A communication agent that waits for messages from other agents and responds with requested fun content(joke/quote/fact). Built with human-in-the-loop confirmation using [Agno framework](https://docs.agno.com/introduction).
 
 ## Details
 - **Framework**: Agno Agent Framework
@@ -52,7 +52,7 @@ uv run python main.py
 
 
 ## Example Usage
-1. Launch the [Interface agent](https://github.com/Coral-Protocol/Voice-Interface-Agent)
+1. Launch the [Interface agent](https://github.com/Coral-Protocol/Coral-Interface-Agent)
 2. Run the Human in loop agent
 3. Ask the interface agent to "ask the human in loop agent to get me a fact/joke/quote"
 4. The interface agent will ask the human in loop agent and then the Human in loop agent will get the response back
