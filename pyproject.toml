@@ -1,0 +1,12 @@
+[project]
+name = "human-in-loop-agent"
+version = "0.1.0"
+description = "A human-in-the-loop communication agent that waits for messages from other agents and responds with fun content (facts, quotes, jokes) using MCP Tools and OpenAI integration"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agno>=1.5.10",
+    "mcp>=1.9.3",
+    "openai>=1.84.0",
+    "rich>=14.0.0",
+]
