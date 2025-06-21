@@ -21,7 +21,7 @@ A communication agent that waits for messages from other agents and responds wit
 
 <details>  
 
-Ensure that the [Coral Server](https://github.com/Coral-Protocol/coral-server) is running on your system. If you are trying to run Human-in-the-Loop agent and require coordination with other agents, you can run the [Interface Agent](https://github.com/Coral-Protocol/Coral-Interface-Agent) on the Coral Server to interact with this agent.
+Ensure that the [Coral Server](https://github.com/Coral-Protocol/coral-server) is running on your system. If you are trying to run Human-in-the-Loop agent and require coordination with other agents, you can run the [Interface Agent](https://github.com/Coral-Protocol/Coral-Interface-Agent) on the Coral Server to interact with this agent
 
 ```bash
 # In a new terminal clone the repository:
