@@ -15,10 +15,10 @@ import json
 load_dotenv()
 console = Console()
  # MCP Server configuration
-base_url = os.getenv("CORAL_SERVER_URL")
+base_url = os.getenv("CORAL_SSE_URL")
 params = {
     "waitForAgents": 2,
-    "agentId": "human_in_loop_agent",
+    "agentId": os.getenv("AGENT_ID"),
     "agentDescription": "You are a helpful human in loop agent."
 }
 query_string = urllib.parse.urlencode(params)
